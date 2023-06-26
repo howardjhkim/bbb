@@ -1,0 +1,102 @@
+.timer-master {
+    /* border: 2px solid red; */
+    width: 350px;
+    height: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .timer {
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    background-color: #151932;
+    transition: transform 0.5s ease;
+    display: flex;
+   
+  }
+  
+  
+  .timer:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    
+  }
+  
+  
+  .time-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5rem;
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  .time {
+    margin-bottom: 10px;
+    font-size: 6rem;
+  }
+
+  .pause-start {
+    font-size: 1rem;
+    
+  }
+  
+.focus-container {
+    text-align: center;
+    color: white;
+    border-radius: 55px;
+    background-color: #151932;
+    padding: 10px 25px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    align-items: center;
+  }
+
+
+
+  .category{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 55px;
+    background-color: #151932;
+  }
+  
+  
+  .category > div {
+    color: white;
+    border-radius: 55px;
+    height: 100%;
+    /* border: 2px solid salmon; */
+    padding: 20px 25px;
+  }
+  
+
+  .category > div:hover {
+    background: #E3686E;
+    cursor: pointer;
+  }
+
+
+  .category > div.focus {
+    background-color: #E3686E;
+  }
+
+
+  .title {
+    color: white;
+    text-align: center;
+    margin-left: 0;
+    /* border: 2px solid white; */
+  }
+  
