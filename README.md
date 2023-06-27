@@ -15,7 +15,7 @@ $ npm install
 
 ### Built With
 
-* [![React][React.js]][React-url]
+* React.js
 * Material UI
 
 ## Upcoming Features
@@ -27,6 +27,6 @@ $ npm install
 
 janghoonjhkim@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/your_username/repo_name](https)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
