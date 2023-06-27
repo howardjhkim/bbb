@@ -1,4 +1,4 @@
-# DomoPodo
+# DomoPoro
 
 A simple pomodoro app made to help boost productivity and concentration by offering customizable timed work intervals and breaks.
 
