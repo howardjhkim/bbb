@@ -78,7 +78,7 @@ function Timer() {
     
     return (
         <div className="timer-master" style={toggled ? { filter: 'blur(5px)' } : null}>
-            <div className="title"><h1>pomodoro</h1></div>
+            <div className="title"><h1>domoporo</h1></div>
 
             <div className="focus-container">Round: {roundCounter} / {rounds.length === 0 ? '0' : rounds}</div>
             <button className="timer" onClick={handleButtonClick}>
