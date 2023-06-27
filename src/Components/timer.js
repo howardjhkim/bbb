@@ -78,9 +78,9 @@ function Timer() {
     
     return (
         <div className="timer-master" style={toggled ? { filter: 'blur(5px)' } : null}>
-            <div className="title"><h2>pomodoro</h2></div>
+            <div className="title"><h1>domoporo</h1></div>
 
-            <div className="focus-container">ROUND: {roundCounter} / {rounds.length === 0 ? '0' : rounds}</div>
+            <div className="focus-container">Round: {roundCounter} / {rounds.length === 0 ? '0' : rounds}</div>
             <button className="timer" onClick={handleButtonClick}>
                 <div className="time-container">
                     <div className="time">
@@ -92,9 +92,9 @@ function Timer() {
                 </div>
             </button>
             <div className="category">
-                <div>timer</div>
-                <div>short break</div>
-                <div>long break</div>
+                <div>Timer</div>
+                <div>Short Break</div>
+                <div>Long Break</div>
             </div>
         </div>
     )
