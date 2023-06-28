@@ -109,14 +109,14 @@ function Settings() {
                                 value={shortBreak}
                                 onChange={(e) => setShortBreak(e.target.value)}
                                 />
-                            <TextField 
+                            {/* <TextField 
                                 id="outlined-basic" 
                                 label="Long Break" 
                                 type='number'
                                 variant="outlined"
                                 value={longBreak}
                                 onChange={(e) => setLongBreak(e.target.value)}
-                                />
+                                /> */}
                         </div>
                         </div>
                     </div>
