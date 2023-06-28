@@ -4,8 +4,6 @@ A simple pomodoro app made to help boost productivity and concentration by offer
 
 ### Installation
 
-A step by step guide that will tell you how to get the development environment up and running.
-
 ```
 $ git clone https://github.com/howardjhkim/pomodoro.git
 $ cd client
